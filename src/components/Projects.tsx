@@ -37,31 +37,6 @@ const projects: Project[] = [
     codeFile: 'hacilar-erp.ts',
   },
   {
-    label: 'Multi-Platform',
-    name: 'MK-Fleisch Plattform',
-    type: 'B2B E-Commerce & Management',
-    desc: 'Enterprise-Plattform für ein Fleischunternehmen mit NestJS-Backend, Next.js-Webportal und React-Native-App. PostgreSQL mit Prisma ORM, AWS S3, Swagger-API-Docs und CASL-Berechtigungssystem.',
-    tech: ['NestJS', 'Next.js', 'React Native', 'PostgreSQL', 'Prisma', 'AWS S3', 'TypeScript', 'Ant Design'],
-    features: [
-      'NestJS-Backend mit Prisma ORM',
-      'Next.js Admin-Portal mit Refine.dev',
-      'React Native Mobile-App (Expo)',
-      'AWS S3 Datei-Storage',
-      'CASL Rollenbasierte Berechtigungen',
-    ],
-    code: `@Module({
-  imports: [
-    PrismaModule,
-    AuthModule,
-    S3Module,
-  ],
-  controllers: [ProductController],
-  providers: [ProductService],
-})
-export class ProductModule {}`,
-    codeFile: 'product.module.ts',
-  },
-  {
     name: 'BiSiparis',
     type: 'E-Commerce Plattform',
     desc: 'Türkische E-Commerce-Plattform mit Kunden-Storefront und Admin-Panel. MobX State-Management, ApexCharts-Analytics, FullCalendar-Integration und Mehrsprachigkeit.',
